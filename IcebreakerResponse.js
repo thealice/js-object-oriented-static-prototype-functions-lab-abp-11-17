@@ -3,8 +3,8 @@ function IcebreakerResponse(email){
 }
 
 IcebreakerResponse.BatchCreate = function(emails){
-  return emails.map(function(userData){
-    return new IcebreakerResponse(userData);
+  return emails.map(function(icebreakerData){
+    return new IcebreakerResponse(icebreakerData);
   })
 }
 const emails = ["avi@flatironschool.com", "grace@hopper.com", "alan@xparc.com"];
