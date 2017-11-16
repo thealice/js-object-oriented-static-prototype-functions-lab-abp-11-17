@@ -8,5 +8,5 @@ IcebreakerResponse.BatchCreate = function(emails){
   })
 }
 // const emails = ["avi@flatironschool.com", "grace@hopper.com", "alan@xparc.com"];
-// 
+//
 // let icebreakerResponses = IcebreakerResponse.BatchCreate(emails);
